@@ -19,5 +19,9 @@ function Reloj_instantaneo() {
     
   }
 
-  Reloj_instantaneo();
+  setInterval(function () {
+    Reloj_instantaneo();
+  }, 1000);
+
+ 
 
